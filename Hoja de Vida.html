@@ -1,0 +1,401 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CURRICULUM</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Arial', sans-serif;
+            line-height: 1.6;
+            background-color: #2a2626;
+            color: #f0ecec;
+            height: 100vh;
+        }
+
+        .container {
+            width: 80%;
+            margin: 0 auto;
+        }
+
+        nav {
+            background-color: #9d25b8;
+            color: white;
+            padding: 10px 0;
+            position: fixed;
+            width: 100%;
+            top: 0;
+            z-index: 100;
+        }
+
+
+        nav ul {
+            list-style-type: none;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-size: 1.2rem;
+        }
+
+        nav ul li a:hover {
+            text-decoration: underline;
+        }
+
+        body {
+            padding-top: 60px;
+        }
+
+        header {
+            background-color: #2c2ec5;
+            color: white;
+            padding: 0.1px 0;
+            text-align: center;
+        }
+
+        header h1 {
+            font-size: 3rem;
+            margin-bottom: 10px;
+
+        }
+
+        header p {
+            font-size: 1.2rem;
+        }
+
+
+        .main-content {
+            padding: 40px 0;
+        }
+
+        .main-content h2 {
+            font-size: 2rem;
+            margin-bottom: 20px;
+            color: #e5dded;
+        }
+
+        .main-content p {
+            font-size: 1.1rem;
+            margin-bottom: 20px;
+        }
+
+        .service-table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-bottom: 20px;
+        }
+
+        .service-table th,
+        .service-table td {
+            padding: 15px;
+            text-align: left;
+            border: 1px solid #ddd;
+        }
+
+        .service-table th {
+            background-color: #ae39d2;
+            color: white;
+        }
+
+        .service-table tr:nth-child(even) {
+            background-color: #f9f9f9;
+        }
+
+        .service-table tr:hover {
+            background-color: #dcedc8;
+            transition: background-color 0.3s ease;
+        }
+
+
+        ul {
+            list-style-type: none;
+
+
+        }
+
+        ul li {
+            font-size: 1.1rem;
+            margin-bottom: 10px;
+        }
+
+
+        .video-section {
+            margin: 40px 0;
+            text-align: center;
+        }
+
+        .video-section iframe {
+            max-width: 100%;
+            height: 450px;
+            border: none;
+        }
+
+
+        .images-section {
+            margin: 40px 0;
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+        }
+
+        .images-section img {
+            max-width: 30%;
+            height: auto;
+            margin: 10px;
+            border-radius: 8px;
+            transition: transform 0.3s ease;
+        }
+
+        .images-section img:hover {
+            transform: scale(1.05);
+        }
+
+
+        footer {
+            background-color: #a139f0;
+            color: white;
+            text-align: center;
+            padding: 0.5px;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
+
+
+
+
+
+        @media (max-width: 768px) {
+            .container {
+                width: 90%;
+            }
+
+            header h1 {
+                font-size: 2.5rem;
+            }
+
+            header p {
+                font-size: 1rem;
+            }
+
+            .main-content h2 {
+                font-size: 1.8rem;
+            }
+
+            .service-table th,
+            .service-table td {
+                padding: 10px;
+            }
+
+            footer p {
+                font-size: 0.9rem;
+            }
+
+            .images-section img {
+                max-width: 45%;
+            }
+
+        }
+    </style>
+</head>
+
+<body>
+    <table>
+        <tr>
+            <nav>
+                <ul>
+                    <li><a href="#Carusel">Datos</a></li>
+                    <li><a href="#Video">FORMACIÓN ACADEMICA</a></li>
+                    <li><a href="#Web Externa">EXPERIENCIA LABORAL</a></li>
+
+                    <a href="https://www.facebook.com/ysraeljimy.quispellusco" target="_blank">
+                        <img src="PAG.1 ING ESTRUC/icono facebook.png" alt="Facebook" class="icon" width="25"
+                            height="25">
+                    </a>
+
+                    <a href="https://www.tiktok.com/@ysrael269?_t=8sRA1WdNVdW&_r=1" target="_blank">
+                        <img src="PAG.1 ING ESTRUC/icono tiktok.png" alt="Tiktok" class="icon" width="25" height="25">
+                    </a>
+
+                    <a href="https://wa.me/59162495771" target="_blank">
+                        <img src="PAG.1 ING ESTRUC/icono wasap.png" alt="WhatsApp" class="icon" width="25" height="25">
+                    </a>
+
+                </ul>
+            </nav>
+        </tr>
+    </table>
+
+    <header id="home">
+        <div class="container">
+            <h1>CURRÍCULUM VITAE</h1>
+            <p>Ingeniero civil con experiencia laboral, de excelentes relaciones interpersonales y habilidad para
+                trabajar en equipo o
+                individualmente. Enfocado al cumplimiento del deber y obligación como profesional, con alto grado de
+                responsabilidad y
+                fácil interpretación de las políticas organizacionales</p>
+        </div>
+    </header>
+
+    <section class="main-content" id="Carusel">
+        <div class="container">
+            <h2>
+                <center><mark>"ING. CIVIL YSRAEL JIMY QUISPE LLUSCO"</mark></center>
+            </h2>
+            <div>
+                <input type="radio" id="img1" name="carrusel" checked>
+                <input type="radio" id="img2" name="carruse2" checked>
+                <input type="radio" id="img3" name="carruse3" checked>
+
+
+                <marquee behavior="scroll" direction="left" scrollamount="5" loop="infinite">
+                    <div>
+                        <label for="img1">
+                            <img src="PAG.1 ING ESTRUC/CascoCivil.jpg.jpg" alt="Imagen 1" width="400" height="300">
+                        </label>
+                        <label for="img1">
+                            <img src="PAG.1 ING ESTRUC/Vitae.PNG" alt="Imagen 1" width="1000" height="300">
+                        </label>
+                        <label for="img1">
+                            <img src="PAG.1 ING ESTRUC/CascoCivil.jpg.jpg" alt="Imagen 1" width="400" height="300">
+                        </label>
+                    </div>
+                </marquee>
+                <div>
+                    <label for="img1">•</label>
+                    <label for="img2">•</label>
+                    <label for="img3">•</label>
+
+                </div>
+            </div>
+        </div>
+        <div class="back-to-nav">
+            <a href="#">
+                <center>Ir a Menú</center>
+            </a>
+        </div>
+
+    </section>
+
+    <table width="100%" background="PAG.1 ING ESTRUC/CIVIL G1.jpg">
+        <tr>
+            <td>
+                <center>
+                    <section class="main-content" id="Video">
+                        <div class="container">
+
+                        <h2><mark>FORMACIÓN ACADEMICA</mark></h2>
+                        <img src="PAG.1 ING ESTRUC/Estudios.jpg" alt="Proyecto 1" width="600" height="300">
+
+                        </center>
+
+                     
+
+                        <center>
+
+                            <iframe width="600" height="300"
+                                src="PAG.1 ING ESTRUC/Video1Especialidades.mp4"
+                                allowfullscreen></iframe>
+
+                                <h2><mark>ESPECIALISTA EN ESTRUCTURAS</mark></h2>
+                        </div>
+
+
+                        <div class="back-to-nav">
+                            <a href="#">
+                                <center>Ir a Menú</center>
+                            </a>
+                        </div>
+
+                    </section>
+                </center>
+            </td>
+        </tr>
+    </table>
+
+
+    <table width="100%" background="PAG.1 ING ESTRUC/CIVIL G3.jpg">
+        <tr>
+            <td>
+
+                <section class="main-content" id="Web Externa">
+                    <div class="container">
+                        <center>
+                            <h1><mark>FORMACIÓN ADICIONAL</mark></h1>
+
+                            <p>
+                                <iframe width="1200" height="400"
+                                    src="https://docs.google.com/spreadsheets/d/e/2PACX-1vThBZc3-K0T1u4qIMlKDLU9ycs1GTnJWJFkQnwFyRxh9AYBnGnBeQr1veFlek6-5e1qiFxH3Fh40DKH/pubhtml?gid=0&single=true"
+                                    frameborder="0"
+                                    allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture"
+                                    allowfullscreen></iframe>
+                            </p>
+                        </center>
+
+
+                        <div class="back-to-nav">
+                            <a href="#">
+                                <center>Ir a Menú</center>
+                            </a>
+                        </div>
+
+                </section>
+
+            </td>
+        </tr>
+    </table>
+
+
+    <footer>
+        <center>
+            <div class="container">
+                <table>
+                    <tr>
+                        <td>
+                            <p>&copy; 2024 CV Ing. Ysrael Quispe- Todos los derechos reservados</p>
+                        </td>
+
+                        <td>
+                            <a href="https://www.facebook.com/ysraeljimy.quispellusco" target="_blank">
+                                <img src="PAG.1 ING ESTRUC/icono facebook.png" alt="Facebook" class="icon" width="25"
+                                    height="25">
+                            </a>
+                        </td>
+
+                        <td>
+                            <a href="https://www.tiktok.com/@ysrael269?_t=8sRA1WdNVdW&_r=1" target="_blank">
+                                <img src="PAG.1 ING ESTRUC/icono tiktok.png" alt="Tiktok" class="icon" width="25"
+                                    height="25">
+                            </a>
+                        </td>
+
+                        <td>
+                            <a href="https://wa.me/59162495771" target="_blank">
+                                <img src="PAG.1 ING ESTRUC/icono wasap.png" alt="WhatsApp" class="icon" width="25"
+                                    height="25">
+                            </a>
+                        </td>
+
+                    </tr>
+                </table>
+            </div>
+        </center>
+    </footer>
+
+</body>
+
+</html>
